@@ -10,13 +10,19 @@ val TABS_FIXED = listOf(
     R.string.janjijiwa_title,
     R.string.kopikenangan_title,
 )
+
 class CafeAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
     FragmentStateAdapter(fragmentManager, lifecycle) {
     override fun getItemCount(): Int {
         return TABS_FIXED.size
     }
-    override fun createFragment(position: Int): Fragment
-    {
-        return CafeDetailFragment()
+    override fun createFragment(position: Int): Fragment {
+        val cafeId = when (position) {
+            0 -> CafeDetailFragment.CAFE_STARBUCKS
+            1 -> CafeDetailFragment.CAFE_JANJIJIWA
+            2 -> CafeDetailFragment.CAFE_KOPIKENANGAN
+            else -> CafeDetailFragment.CAFE_STARBUCKS // Default or fallback
+        }
+        return CafeDetailFragment.newInstance(cafeId)
     }
 }
