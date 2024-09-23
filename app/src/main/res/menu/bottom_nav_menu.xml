@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android=
+    "http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/coffee"
+        android:title="@string/bottom_menu_coffee" />
+    <item
+        android:id="@+id/cafeFragment"
+        android:icon="@drawable/cafe"
+        android:title="@string/bottom_menu_cafe"/>
+</menu>
