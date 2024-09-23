@@ -25,5 +25,4 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         tools:text="@string/affogato_desc" />
-    aaaaa
 </LinearLayout>
