@@ -24,4 +24,14 @@
         android:layout_height="wrap_content"
         layout="@layout/content_main"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="labeled"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
