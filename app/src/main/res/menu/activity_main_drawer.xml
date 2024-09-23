@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/listFragment"
+            android:icon="@drawable/coffee_menu"
+            android:title="@string/menu_coffee" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/favoritesFragment"
+            android:icon="@drawable/favorite_menu"
+            android:title="@string/menu_favorites" />
+    </group>
+</menu>

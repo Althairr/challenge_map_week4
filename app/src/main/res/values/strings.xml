@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LAB_WEEK_04</string>
+    <string name="app_title">Coffee App</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_coffee">Coffee List</string>
+    <string name="menu_favorites">Favorite Coffee</string>
+    <string name="affogato_title">AFFOGATO</string>
+    <string name="affogato_desc">Espresso poured on a vanilla ice cream. Served in a
+cappuccino cup.</string>
+    <string name="americano_title">AMERICANO</string>
+    <string name="americano_desc">Espresso with added hot water (100-150 ml). Often
+served in a cappuccino cup. (The espresso is added into the hot water rather than
+all the water being flowed through the coffee that would lead to over
+extraction.)</string>
+    <string name="latte_title">CAFFE LATTE</string>
+    <string name="latte_desc">A tall, mild \'milk coffee\' (about 150-300 ml). An
+espresso with steamed milk and only a little milk foam poured over it. Serve in a
+latte glass or a coffee cup. Flavoured syrup can be added.</string>
+    <string name="coffee_list">Coffee List</string>
+    <string name="coffee_favorites">My Favorite Coffee</string>
+    <string name="cafe_list">Cafe List</string>
+    <string name="bottom_menu_coffee">Coffee</string>
+    <string name="bottom_menu_cafe">Cafe</string>
+    <string name="starbucks_title">STARBUCKS</string>
+    <string name="janjijiwa_title">JANJI JIWA</string>
+    <string name="kopikenangan_title">KOPI KENANGAN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
